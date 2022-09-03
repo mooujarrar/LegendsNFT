@@ -1,0 +1,29 @@
+{
+  "name": "legendsnft",
+  "version": "1.0.0",
+  "description": "This is the project holding the SmartContract for the LegendsRP NFT drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NFT",
+    "Web3",
+    "RP",
+    "Metaverse"
+  ],
+  "author": "Mohyiddine Oujarrar (mooujarrar.pro)",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.11.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.0"
+  }
+}
